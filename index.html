@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1><b>Calculator</b></h1>
+			</div>
+			<hr>
+		</div>
+		<div class="row text-center">
+			<div class="col-lg-12"><span id="screen">0</span></div>
+		</div>
+		<hr>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<button class="btn btn-primary" onclick="addView('1')">1</button>
+				<button class="btn btn-primary" onclick="addView('2')">2</button>
+				<button class="btn btn-primary" onclick="addView('3')">3</button>
+				<button class="btn btn-primary" onclick="addView('+')">+</button>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<button class="btn btn-primary" onclick="addView('4')">4</button>
+				<button class="btn btn-primary" onclick="addView('5')">5</button>
+				<button class="btn btn-primary" onclick="addView('6')">6</button>
+				<button class="btn btn-primary" onclick="addView('-')">-</button>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<button class="btn btn-primary" onclick="addView('7')">7</button>
+				<button class="btn btn-primary" onclick="addView('8')">8</button>
+				<button class="btn btn-primary" onclick="addView('9')">9</button>
+				<button class="btn btn-primary" onclick="addView('*')">*</button>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-12">
+				<button class="btn btn-primary" onclick="clearScreen()">C</button>
+				<button class="btn btn-primary" onclick="addView('0')">0</button>
+				<button class="btn btn-primary" onclick="addView('/')">/</button>
+				<button class="btn btn-primary" onclick="solve()">=</button>
+			</div>
+		</div>
+	</header>
+	<footer>
+		<div>
+			<h4>Created by Amandeep Singh Saluja</h4>
+		</div>
+	</footer>
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.slim.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
